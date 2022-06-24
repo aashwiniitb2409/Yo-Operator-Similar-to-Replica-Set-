@@ -1,5 +1,5 @@
 # yo
-This is my very first kubernetes operator. This is an attempt to create a operator which replicates `replica set`. 
+This is my very first kubernetes operator. This is an attempt to create a operator which replicates `replicaset`. 
 
 ## Description
 A local cluster is needed to run this operator. You can use `kind` as a local cluster or use cloud clusters also. 
