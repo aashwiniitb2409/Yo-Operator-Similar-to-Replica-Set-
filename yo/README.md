@@ -1,8 +1,9 @@
 # yo
-// TODO(user): Add simple overview of use/purpose
+This is my very first kubernetes operator. This is an attempt to create a operator which replicates `replica-set`. 
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+A local cluster is needed to run this operator. You can use `kind` as a local cluster or use cloud clusters also. 
+In this operator, user gives number of `replicas` as `spec` and gets that number of pods in his/her cluster. And the operator maintains that number of pods throughout.
 
 ## Getting Started
 You’ll need a Kubernetes cluster to run against. You can use [KIND](https://sigs.k8s.io/kind) to get a local cluster for testing, or run against a remote cluster.
