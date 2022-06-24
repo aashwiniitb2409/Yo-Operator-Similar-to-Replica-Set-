@@ -1,0 +1,7 @@
+apiVersion: aashwin.yo.com/v1alpha1
+kind: Yo
+metadata:
+  name: yo-sample
+spec:
+  # TODO(user): Add fields here
+  Replicas: 10

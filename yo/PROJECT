@@ -1,0 +1,16 @@
+domain: yo.com
+layout:
+- go.kubebuilder.io/v3
+projectName: yo
+repo: yo
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: yo.com
+  group: aashwin
+  kind: Yo
+  path: yo/api/v1alpha1
+  version: v1alpha1
+version: "3"

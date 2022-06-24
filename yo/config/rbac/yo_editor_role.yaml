@@ -1,0 +1,24 @@
+# permissions for end users to edit yoes.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: yo-editor-role
+rules:
+- apiGroups:
+  - aashwin.yo.com
+  resources:
+  - yoes
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - aashwin.yo.com
+  resources:
+  - yoes/status
+  verbs:
+  - get
